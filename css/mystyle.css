@@ -1,0 +1,13 @@
+* {padding: 0px; margin: 0px;overflow: visible;}
+.header{background-color: #4e9f64;width: 100%;height: 50px;}
+.header p{font-family: "Times New Roman", Times, serif;text-align: center;display: block;line-height: 50px;font-size: 20px;color: white;}
+.img {width:100px; height: 100px; margin-right: 20px;}
+.h{margin-left: -180px;margin-top: 10px;}
+.vertical{width: 1px;height: 90px; background-color: grey;margin-left: -72px;}
+.mtop{margin-top: 36px;}
+.line{width: 100%; height: 1px; background-color: grey;opacity: 0.5}
+li a {padding-bottom: 6px;}
+.block{width:100%; height:350px; padding:0px; margin-top:-10px;background-image: url("../logos.jpg");background-repeat: repeat-x;}
+.web{width:100%;height: 100px; }
+.web p{color: white;font-size: 40px;text-align: center;float: left;padding-left: 500px;padding-top: 40px;}
+.block button{float: left; }
