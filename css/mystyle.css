@@ -10,4 +10,4 @@ li a {padding-bottom: 6px;}
 .block{width:100%; height:350px; padding:0px; margin-top:-10px;background-image: url("../logos.jpg");background-repeat: repeat-x;}
 .web{width:100%;height: 100px; }
 .web p{color: white;font-size: 40px;text-align: center;float: left;padding-left: 500px;padding-top: 40px;}
-.block button{float: left; }
+.siteblock {background-color: #4e9f64;height: 60px; opacity: 0.8;}
