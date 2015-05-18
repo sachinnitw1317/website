@@ -6,11 +6,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Title Page</title>
 		<link href="css/mystyle.css" rel="stylesheet">
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/myscript.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	</head>
 	<body>
-		<script src="//code.jquery.com/jquery.js"></script>
-		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<script src=""></script>
+		
 		<div class="header"><p>Welcome to my website<button type="button" class="btn btn primary" style="background-color:#3279d3; margin-left:5px;padding:4px 20px;">Enter</button></p> </div>
 		<div class="row" style="height:50px;">
 		</div>
@@ -70,10 +72,17 @@
 			<div class="container">
 				
 				<div class="col-xs-offset-4 col-sm-offset-4 col-md-offset-4 col-lg-offset-4 col-xs-6 col-sm-6 col-md-6 col-lg-6" style="margin-left:300px;">
-					<button type="button" class="btn btn-success" style="float:left;">Learning & Tutorials</button>
-					<button type="button" class="btn btn-success" style="float:left;margin-left:20px;width:154px;">Designing</button>
-					<button type="button" class="btn btn-success"style="float:left;margin-left:20px;width:154px;">Publishing</button>
+					<button type="button" class="btn btn-success" style="float:left;" onclick="show('learn')">Learning & Tutorials</button>
+					<button type="button" class="btn btn-success" style="float:left;margin-left:20px;width:154px;" onclick="show('design')">Designing</button>
+					<button type="button" class="btn btn-success"style="float:left;margin-left:20px;width:154px;" onclick="show('publish')">Publishing</button>
 				</div>
+				
+				
+				<div class="blank"></div>
+					<div id="learn"><h2>learning</h2></div>
+					<div id="design" ><h2>Designing</h2></div>
+					<div id="publish" ><h2>Publishing</h2></div>
+				
 			</div>
 				
 			</div>
@@ -178,14 +187,14 @@ We don't just give you the raw data. We provide actionable insights and clear re
 			<div class="col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-xs-5 col-sm-5 col-md-5 col-lg-5"><img src="nit.png" class="img-responsive" alt="Image" width="320px" height="150px"></br><p style="color:white;display:block;margin-top:-4px;">Founded in 1996, Alexa has a rich history of providing deep analytical
 insights to benchmark, compare and optimize businesses on the web.</p></div>
 <div class="col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-xs-1 col-sm-1 col-md-1 col-lg-1 ">
+
 	<ul style="width:180px">
 	   <p style="color:white;">Product</p></br>
 		<li><a href="">For Digital Marketers</a></li>
 		<li><a href="">For Site Owners</a></li>
 		<li><a href="">For Content Strategists</a></li>
 		<li><a href="">Plans And Pricing</a></li>
-	</ul>
-	
+	</ul>	
 </div>
 <div class="col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-xs-1 col-sm-1 col-md-1 col-lg-1 ">
 	<ul style="width:180px">

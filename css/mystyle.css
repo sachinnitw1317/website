@@ -11,6 +11,7 @@ li a {padding-bottom: 6px;}
 .web{width:100%;height: 100px; }
 .web p{color: white;font-size: 40px;text-align: center;float: left;padding-left: 500px;padding-top: 40px;}
 .siteblock {background-color: #4e9f64;height: 60px; opacity: 0.8;}
+.blank { width: 100%;height:40px; margin:0px;padding: 0px;background-color: white;opacity: 0.0;clear: both;}
 .blank1 { width: 100%;height:40px; margin:0px;padding: 0px;background-color: white;}
 .img { width: 80px; height: 80px;margin: auto;}
 .container2{width: 100%;height: 200px; background-color:#d4d4d4;margin-top: 40px;}
@@ -20,4 +21,10 @@ li a {padding-bottom: 6px;}
 .tab p{color: white;font-style: bold;display: block;margin-top: -30px;}
 .block3{width: 100%;height: 250px;background-color: #4e9f64;margin-top: 20px;}
 .block3 a{color: white; }
+#learn {width: auto;height: 150px ;clear: both;display: none; }
+#design {width: auto;height: 150px; clear: both; display: none;}
+#publish {width: auto;height: 150px;clear: both; display: none;}
+#learn h2{color: white;text-align: center; }
+#design h2{color: white;text-align: center; }
+#publish h2{color: white;text-align: center; }
 
